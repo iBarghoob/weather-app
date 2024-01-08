@@ -1,5 +1,6 @@
+import config from './config';
 
-const apiKey = "71db25b7f6d5f8367cd9683ee71acf7f";
+const apiKey = config.apiKEY;
 
 const form = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
